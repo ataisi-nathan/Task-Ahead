@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 80vw;
+    justify-content: space-between;
+    border: 3px solid black;
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.theme {
+    display: flex;
+    gap: 5px;
+}
+
+.theme div {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(233, 220, 220);
+}
+
+.black {
+    background-color: rgb(22, 22, 34);
+    transition: all 500ms;
+    color: white;
+}
+.cyan {
+    background-color: rgb(233, 251, 251);
+    transition: all 500ms;
+}
+.red {
+    background-color: rgb(235, 45, 45);
+    transition: all 500ms;
+}
+.gOne {
+    background: linear-gradient(235deg, rgba(59, 32, 179, 0.9) 0%, rgba(226, 31, 80, 0.7) 100%);
+    transition: all 750ms;
+}
+.gTwo {
+    background: linear-gradient(rgba(189, 27, 27, 0.9), rgba(10, 228, 123, 0.7));
+    transition: all 750ms;
+}

@@ -1,0 +1,26 @@
+{ 
+    "student": {
+       "Maureen" : {
+            "id": 1,
+            "name": "Maureen",
+            "stack": "UI/UX, Front-end Developer, Data Analyst"
+        },
+        "Zino" : {
+            "id": 2,
+            "name": "Zino",
+            "stack": "Front-end Developer, Mama's Man"
+        },
+        "Cath":{
+            "id": 3,
+            "name": "Cath",
+            "stack": "Front-end Developer"
+        },
+        "Nathan":{
+            "id": 4,
+            "name": "Nathan",
+            "stack": "Front-end Developer"
+        }
+    }   
+
+}
+

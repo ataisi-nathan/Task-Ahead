@@ -1,0 +1,27 @@
+header {
+    height: 12vh;
+    background-color: rgb(239, 33, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 4em;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: ease 500ms;
+}
+header nav a:hover {
+    background-color: white;
+    color: rgb(239, 33, 26);;
+    border-radius: 3px;
+}

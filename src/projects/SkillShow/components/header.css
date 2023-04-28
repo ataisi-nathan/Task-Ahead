@@ -1,0 +1,9 @@
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    align-items: center;
+    border: 2px solid rgb(67, 60, 60);
+    width: 90vw;
+    border-radius: 10px;
+}

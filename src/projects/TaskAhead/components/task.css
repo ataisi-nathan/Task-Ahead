@@ -1,0 +1,24 @@
+form {
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+form input, button{
+    font-size: 1.3em;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+button {
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 60px;
+    margin-left: 5px;
+    cursor: pointer;
+}
